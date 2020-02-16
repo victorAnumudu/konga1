@@ -1,0 +1,1057 @@
+/* --- STYLE FOR ABOVENAV DIV ----------- */
+
+/* --- END OF STYLE FOR ABOVENAV DIV ----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3e3e3;
+}
+.containerwarpper{
+    background-color: #F6F6F6;
+}
+
+/* Style for Flash Banner */
+#flash{
+    position: relative;
+}
+#flashBannerImg{
+    width: 100%;
+}
+#close{
+    color: #fff;
+    /* font-size: 1.5em; */
+    font-weight: 600;
+    background-color: #000;
+    padding: 0 6px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: .8vh;
+    right: 1vw;
+}
+/* End of Style for Flash Banner */
+
+
+/* --- STYLE FOR section1 DIV web topest image----------- */
+.section1{
+    text-align: center;
+}
+.section1Anchor{
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 20px;
+}
+.section1Image{
+    width: 90px;
+    height: 18px;
+}
+.section1ImageSmall{
+    width: 70px;
+    height: 15px;
+}
+.section1ImageSmaller{
+    width: 50px;
+    height: 15px;
+}
+/* --- END OF STYLE FOR section1 DIV web topest image----------- */
+
+
+/* --- STYLE FOR section2 DIV first nav ----------- */
+.section2Nav{
+    width: 100%;
+    display: flex;
+    background-color: #ED017F;
+    align-items: center;
+    padding: 0 20px;
+    list-style-type: none;
+}
+.section2ListItem1{
+    margin-right: 4%;
+}
+.section2AnchorImage{
+    display: inline-block;
+}
+.section2Image{
+    width: 100%;
+    height: 40px;
+}
+.section2Anchor{
+    display: inline-block;
+    padding: 20px 9px;
+    text-decoration: none;
+    transition: .8s;
+    color: #fff;
+    font-size: .8em;
+}
+.section2Anchor:hover{
+    background-color: #fff;
+    text-decoration: none;
+    color: #ED017F;
+}
+.section2ListItemInput{
+    width: 40%;
+    min-width: 350px;
+}
+.section2Input1{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 98%;
+    padding: 0 0 0 10px;
+    margin: 0 4px;
+    background-color: #fff;
+}
+.section2Input1::placeholder{
+    color: black;
+    font-size: .8em;
+    font-style: italic;
+}
+.section2ListItemLast{
+    margin-left: 10px;
+    
+}
+.section2Button{
+    background-color: #2D9E6D;
+    color: #fff;
+    font-size: .8em;
+    width: 120px;
+    padding: 10px 10px;
+    border: none;
+}
+.section2Button:hover{
+    background-color: rgb(26, 104, 70);
+}
+.section2Button:hover .section2Counter{
+    background-color: #9BECE2;
+}
+.section2Counter{
+    padding: 5px 10px;
+    color: #000;
+    background-color: #fff;
+}
+
+/* --- END OF STYLE FOR section2 DIV first nav----------- */
+
+
+/* --- STYLE FOR section3 Nav DIV ----------- */
+.section3{
+    background-color: rgb(134, 10, 76);
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+}
+.menuBar{
+    color: #fff;
+}
+.section3Anchor{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: .8em;
+    text-decoration: none;
+    transition: 1s;
+    flex-grow: 1;
+    text-align: center;
+}
+.section3Anchor:hover{
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* --- END OF STYLE FOR section3 Nav DIV ----------- */
+
+
+
+/* --- STYLE FOR section4 Slide DIV ----------- */
+.section4{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+.section4slide{
+    background-image: url("../images/section4/phone1.jpg");
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    height: auto;
+    width: 65%;
+}
+@keyframes slide{
+    0%{background-image: url("../images/section4/carouselBanner1.webp");}
+    10%{background-image: url("../images/section4/carouselBanner2.webp");}
+    20%{background-image: url("../images/section4/carouselBanner3.webp");}
+    30%{background-image: url("../images/section4/carouselBanner4.webp");}
+    40%{background-image: url("../images/section4/carouselBanner5.webp");}
+    50%{background-image: url("../images/section4/carouselBanner6.webp");}
+    60%{background-image: url("../images/section4/carouselBanner7.webp");}
+    70%{background-image: url("../images/section4/carouselBanner8.webp");}
+    80%{background-image: url("../images/section4/carouselBanner4.webp");}
+    90%{background-image: url("../images/section4/carouselBanner2.webp");}
+   100%{background-image: url("../images/section4/carouselBanner1.webp");}
+}
+.section4ImageCon{
+    padding-left: 20px;
+    width: 35%;
+}
+.section4Image{
+    display: flex;
+    justify-content: space-between;
+}
+.section4SlideFirst, .section4SlideSecond, .section4Slide2First, .section4Slide2Second{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+.section4SlideFirst{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.section4SlideSecond{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.section4Slide2First{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.section4Slide2Second{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* --- END OF STYLE FOR section4 Slide DIV ----------- */
+
+
+
+/* --- STYLE FOR section5 DIV ----------- */
+.section5{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.section5Anchor{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.section5Image{
+    width: 100%;
+    height: auto;
+}
+/* --- END OF STYLE FOR section5 DIV ----------- */
+
+
+/* --- STYLE FOR section6 ----------- */
+.section6{
+    margin: 20px;
+}
+.section6Header{
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+.section6HeaderPara{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+.section6HeaderAnchor{
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: .5em;
+    font-weight: 300;
+    color: darkred;
+}
+.section6HeaderAnchor:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+.section6content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+.section6contentAnchor{
+    text-decoration: none;
+}
+.section6content1{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+    width: 33%;
+    margin: 10px 0;
+}
+.section6content1:hover{
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.section6contentImage{
+    width: 30%;
+    height: auto;
+}
+.section6contentPara{
+    width: 70%;
+    padding: 20px 0 20px 5px;
+}
+.section6contentSpan1{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.section6contentSpan2{
+    color: #e3e3e3;
+    text-decoration: line-through;
+}
+.section6contentSpan3{
+    color: rgb(51, 134, 51);
+    font-size: .8em;
+}
+.naira{
+    text-decoration: double line-through;
+}
+.section6contentSpan4{
+ font-size: .7em;
+ font-weight: 300;
+}
+.review{
+    color: #FBA100;
+}
+/* --- END OF STYLE FOR section6 ----------- */
+
+
+/* --- STYLE FOR section7 ----------- */
+.section7{
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.section7ImageCon{
+    width: 16%;
+    cursor: pointer;
+}
+.section7Image{
+    width: 100%;
+}
+/* --- END OF STYLE FOR section7 ----------- */
+
+
+/* --- STYLE FOR section8/Same as section6----------- */
+
+/* --- END OF STYLE FOR section8 ----------- */
+
+
+/* --- STYLE FOR section9 ----------- */
+.section9{
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.secion9Anchor{
+    text-decoration: none;
+}
+.Strip-Banner{
+    width: 100%;
+}
+/* --- END OF STYLE FOR section9 ----------- */
+
+
+/* --- STYLE FOR section10 ----------- */
+.section10{
+    margin: 20px;
+}
+.section10Header{
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.section10Content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+}
+.section10ContentItem{
+    background-color: teal;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 19%;
+    padding: 10% 0 2% 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#section10ContentItem1{
+    background-image: url(../images/section10/1.webp);
+}
+#section10ContentItem2{
+    background-image: url(../images/section10/2.webp);
+}
+#section10ContentItem3{
+    background-image: url(../images/section10/3.webp);
+}
+#section10ContentItem4{
+    background-image: url(../images/section10/4.webp);
+}
+#section10ContentItem5{
+    background-image: url(../images/section10/5.webp);
+}
+#section10ContentItem6{
+    background-image: url(../images/section10/6.webp);
+}
+#section10ContentItem7{
+    background-image: url(../images/section10/7.webp);
+}
+#section10ContentItem8{
+    background-image: url(../images/section10/8.webp);
+}
+#section10ContentItem9{
+    background-image: url(../images/section10/9.webp);
+}
+#section10ContentItem10{
+    background-image: url(../images/section10/10.webp);
+}
+#section10ContentItem1, #section10ContentItem2, #section10ContentItem3, #section10ContentItem4, #section10ContentItem5, #section10ContentItem6, #section10ContentItem7, #section10ContentItem8, #section10ContentItem9, #section10ContentItem1{
+    background-size: 100% 100%;
+}
+.section10ContentItem:hover .section10ContentItemInner{
+    display: block;
+}
+.section10ContentItemInner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+    display: none;
+    padding-top: 0;
+    
+}
+.section10InnerFlex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 35%;
+}
+.section10InnerPara{
+    color: #000;
+    font-weight: 600;
+}
+.section10InnerImg{
+    width: 50px;
+    height: 30px;
+}
+.section10InnerUlist{
+    list-style-type: none;
+    height: 65%;
+}
+.section10InnerList{
+    margin: 0 0 5px 0;
+}
+.section10InnerAnchor{
+    font-size: .7em;
+    font-weight: 300;
+    display: block;
+    padding: 5px 10px;
+    color: #000;
+    text-decoration: none;
+}
+.section10InnerAnchor:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: #e3e3e3;
+}
+/* --- END OF STYLE FOR section10 ----------- */
+
+
+/* --- STYLE FOR section11 ----------- */
+.section11{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.section11ImageAnchor{
+    text-decoration: none;
+    width: 49%;
+    min-width: 200px;
+}
+.section11Image{
+    width: 100%;
+    height: auto;
+}
+/* --- END OF STYLE FOR section11 ----------- */
+
+
+/* --- STYLE FOR section12 ----------- */
+.section12{
+    margin: 20px;
+}
+.section12Header{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+    border-radius: 5px 5px 0 0;
+}
+.section12Content{
+    display: flex;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    overflow-x: auto;
+    padding: 10px;
+}
+.section12Anchor{
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    min-width: 250px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+.section12Anchor:hover{
+    color: #000;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.section12Image{
+    width: 70%;
+    height: 50%;
+}
+.section12contentPara{
+    text-align: left;
+    padding: 10px;
+}
+.discount{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background-color: red;
+    color: #fff;
+    font-size: .7em;
+    padding: 5px 10px;
+    border-radius: 0 50px 50px 0;
+}
+/* --- END OF STYLE FOR section12 ----------- */
+
+
+
+/* --- STYLE FOR section13 SAME AS SECTION 12----------- */
+
+/* --- END OF STYLE FOR section13 ----------- */
+
+
+/* --- STYLE FOR section14 ----------- */
+.section14{
+display: flex;
+justify-content: space-between;
+margin: 20px;
+}
+.section14Anchor{
+    width: 24%;
+    text-decoration: none;
+}
+.section14Anchor:hover{
+    text-decoration: none;
+}
+.section14Img{
+width: 100%;
+border-radius: 5px 5px 0 0;
+}
+.section14header, .section14Para1, .section14Para2{
+    background-color: #fff;
+    margin: 0;
+}
+.section14header{
+    color: #000;
+    font-weight: 600;
+    padding: 20px 20px;
+}
+.section14Para1{
+    color: #000;
+    font-weight: 300;
+    font-size: .9em;
+    padding: 0 20px 20px 20px;
+}
+.section14Para2{
+    color: #AF0568;
+    padding: 0 20px 20px 20px;
+    font-size: .7em;
+    border-radius: 0 0 5px 5px;
+}
+/* --- END OF STYLE FOR section14 ----------- */
+
+
+
+/* --- STYLE FOR section15 ----------- */
+.section15{
+    margin: 20px;
+}
+.section15Con{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .2%;
+}
+.section15ConItem{
+    text-decoration: none;
+    width: 16.4%;
+    background-color: #fff;
+    text-align: center;
+    padding: 2% 0;
+    transition: .3s;
+}
+.section15ConItem:hover{
+    transform: scale(1.015)
+}
+.section15ConItem1{
+    border-radius: 5px 0 0 0;
+}
+.section15ConItem6{
+    border-radius: 0 5px 0 0;
+}
+.section15ConItem7{
+    border-radius: 0 0 0 5px;
+}
+.section15ConItem12{
+    border-radius: 0 0 5px 0;
+}
+.section15Image{
+    width: 70%;
+    height: 5vh;
+}
+/* --- END OF STYLE FOR section15 ----------- */
+
+
+/* --- STYLE FOR section16 ----------- */
+.section16{
+    margin: 20px;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.section16Header{
+    font-weight: 600;
+}
+.section16Para{
+    font-size: .9em;
+    font-weight: 500;
+    padding-top: 5px;
+    text-align: justify;
+}
+/* --- END OF STYLE FOR section16 ----------- */
+
+
+
+/* --- STYLE FOR section17 ----------- */
+.section17{
+    background-color: #0C0C0C
+}
+.section17Support{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    background-color: #2E2E2E; 
+}
+.section17Font{
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+.section17header{
+    color: #e3e3e3;
+    font-weight: 600;
+}
+.section17Anchor{
+    color: #e3e3e3;
+    text-decoration: none;
+    font-size: .8em;
+}
+.section17header:hover, .section17Anchor:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.input{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+.section17Input, .section17Button{
+    padding: 0 10px;
+    height: 40px;
+}
+.section17Input{
+width: 70%;
+border-radius: 5px 0 0 5px;
+background-color: #fff;
+border: none;
+}
+.section17Button{
+    font-size: .9em;
+    width: 30%;
+    border-radius: 0 5px 5px 0;
+    background-color: #ED017F;
+    border: none;
+}
+.section17Button:active{
+    background-color: #d11479;
+}
+
+.section17LinksCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.section17Links{
+    display: flex;
+    justify-content: space-between;
+}
+.section17Ul{
+    list-style-type: none;
+    padding-right: 30px;
+}
+.section17ListItem1{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section17UlAnchor{
+    color: #e3e3e3;
+    text-decoration: none;
+    font-size: .8em;
+}
+.section17UlAnchor:hover{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 2px 1px rgb(146, 146, 146, 0.5);
+}
+.section17Download{
+    /* background-color: teal; */
+}
+.section17DownloadPara, .section17DownloadPara2{
+    color: #e3e3e3;
+}
+.section17downloadItem{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.section17DownloadPara2{
+    margin-top: 20px;
+}
+.section17downloadApple, .section17downloadAndroid{
+    text-decoration: none;
+    color: #e3e3e3;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.section17downloadApple:hover, .section17downloadAndroid:hover{
+    text-decoration: none;
+    color: #e3e3e3;
+}
+.apple{
+    font-size: 2em;
+    padding: 10px;
+    color: #fff;
+}
+.section17downloadLink1{
+    font-size: .7em;
+    padding-top: 10px;
+}
+.section17downloadLink2{
+    font-size: 1.5em;
+}
+.section17socialAnchor, .section17socialAnchor:hover{
+    text-decoration: none;
+}
+.section17social{
+    font-size: 1.5em;
+    padding: 10px;
+    color: #fff;
+    background-color: #e3e3e3a4;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.section17Footer{
+    font-size: .8em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+/* --- END OF STYLE FOR section17 ----------- */
+
+/* Style for fixed chat/message box */
+.message{
+    font-size: 2em;
+    color: rgb(23, 154, 194);
+    padding: 10px;
+    background-color: #fff;
+    position: fixed;
+    top: 88vh;
+    right: 4vw;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* media query for secton1 */
+@media only screen and (max-width:140px){
+    .section1Image{
+        width: 100%;
+        height: auto;
+    } 
+}
+/* end of media query for secton1 */
+
+/* media query FOR section2 DIV first nav */
+@media only screen and (max-width:990px){
+    .section2Nav{
+        flex-wrap: wrap;
+    } 
+}
+@media only screen and (max-width:390px){
+    .section2ListItemInput{
+        min-width: 100%;
+    } 
+}
+/* end of media query FOR section2 DIV first nav */
+
+/* media query FOR section3 Nav DIV */
+@media only screen and (max-width:750px){
+    .section3{
+        flex-wrap: wrap;
+    } 
+}
+/* end of media query FOR section2 Nav DIV*/
+
+/* media query for secton4 */
+@media only screen and (max-width:800px){
+    .section4{
+        display: block;
+    }
+    .section4slide{
+        width: 100%;
+        height: 50vh;
+    }
+    .section4ImageCon{
+        width: 100%;
+        height: auto; 
+    }
+    .section4ImageCon{
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+/* end of media query for secton4 */
+
+/* media query for secton5 */
+@media only screen and (max-width:500px){
+    .section5{
+        display: none;
+    }
+}
+/* end of media query for secton5 */
+
+
+
+/* media query for secton6*/
+@media only screen and (max-width:800px){
+    .section6content{
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .section6content1{
+        min-width: 400px;
+        margin: 0 5px;
+    }
+}
+/* end of media query for secton6 */
+
+
+
+/* media query for secton7*/
+@media only screen and (max-width:800px){
+    .section7{
+        overflow: auto;
+    }
+    .section7ImageCon{
+        min-width: 220px;
+        margin: 5px;
+    }
+}
+/* end of media query for secton7 */
+
+
+
+/* media query for secton8*/
+
+/* end of media query for secton8 */
+
+
+/* media query for secton9*/
+
+/* end of media query for secton9 */
+
+
+/* media query for secton10*/
+@media only screen and (max-width:1000px){
+    .section10ContentItem{
+        width: 33%;
+        padding: 20% 0 2% 0;
+    }
+}
+@media only screen and (max-width:700px){
+    .section10ContentItem{
+        width: 49%;
+        height: 60px;
+        padding: 0;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .section10ContentItemInner{
+        width: 100%;
+        height: 100%;
+        display: block; 
+    }
+    .section10InnerFlex{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px;
+        height: 100%;
+    }
+    .section10InnerPara{
+        font-weight: 300;
+    }
+    .section10InnerUlist{
+        display: none;
+    }
+}
+@media only screen and (max-width:390px){
+    .section10ContentItem{
+        width: 100%;
+    }
+}
+/* end of media query for secton10 */
+
+
+/* media query for secton11*/
+@media only screen and (max-width:500px){
+    .section11{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .section11ImageAnchor{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .section11Image{
+        width: 100%;
+        height: auto;
+    }
+}
+/* end of media query for secton11 */
+
+
+/* media query for secton12*/
+@media only screen and (max-width:500px){
+    .section12Anchor{
+        padding-top: 5px;
+        min-width: 60%;
+        margin-right: 10px;
+    }
+    .section12Image{
+        width: 50%;
+        height: 50%;
+    }
+    .section12contentPara{
+        text-align: left;
+        width: 100%;
+        font-size: .6em;
+    }
+}
+/* end of media query for secton12 */
+
+
+
+/* media query for secton13 SAME AS SECTIN12*/
+
+/* end of media query for secton13 */
+
+
+
+/* media query for secton14*/
+@media only screen and (max-width:1000px){
+    .section14{
+        overflow-x: auto;
+        margin: 20px;
+        }
+        .section14Anchor{
+            min-width: 300px;
+            margin-right: 10px;
+        }
+}
+/* end of media query for secton14 */
+
+
+
+/* media query for secton15*/
+
+/* end of media query for secton15 */
+
+
+/* media query for secton16*/
+@media only screen and (max-width:550px){
+    .section16{
+        display: none;
+    }
+}
+/* end of media query for secton16 */
+
+
+
+/* media query for secton17*/
+@media only screen and (max-width:650px){
+    .section17Links{
+        flex-wrap: wrap;
+    }
+}
+/* end of media query for secton17 */
